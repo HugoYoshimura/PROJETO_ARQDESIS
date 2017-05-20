@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Empresa</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			</div>
+		</div>
+	</nav>
+	<div id="main" class="container">
+		<div class="jumbotron">
+			<h4 align="center">Controle de Empresa</h4>
+			<p></p>
+			<p></p>
+			<form action="ManterEmpresa" method="post">
+				<div class="row">
+					<div class="form-group" col-md-4">
+						<p></p>
+					</div>
+					<div class="form-group-4">
+						<p>Insira o ID da Empresa.</p>
+					</div>
+					<div class="form-group" col-md-4">
+						<p></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group" col-md-4">
+						<p></p>
+					</div>
+					<div class="form-group" col-md-1">
+						<label class="active" for="id">ID</label>
+					</div>
+					<div class="form-group col-md-3">
+						<input type="text" class="form-control" name="idEmpresa" id="idEmpresa" required maxlength="4" pattern="\d{4}">
+					</div>
+					<div class="form-group" col-md-4">
+						<p></p>
+					</div>
+				</div>
+				<p></p>
+				<p></p>
+				<p></p>
+				<div id="actions" class="row">
+					<div class="form-group col-md-4">
+						<p></p>
+					</div>
+					<div class="form-group col-md-5">
+						<button type="submit" class="btn btn-primary" name="action" value="select">Confirmar</button>
+						<a href="index.jsp" class="btn btn-danger">Cancelar</a>
+					</div>
+					<div class="form-group col-md-3">
+						<p></p>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
